@@ -1,6 +1,6 @@
 # Just Another Todo App
 
-This is a simple Todo application built with HTML, CSS, and JavaScript. The app allows users to add, edit, and remove todos, and it saves the todos in the browser's local storage.
+This is a simple Todo application built with HTML, CSS, and JavaScript. The app allows users to add, edit, and remove todos, and it saves the todos in the browser's local storage. Demo available at https://jatodo.netlify.app/
 
 ## Project Structure
 
