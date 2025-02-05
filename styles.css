@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "Nunito", serif;
+}
+
+body {
+  font-family: "Quicksand", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 14px;
+  min-height: 100vh;
+}
+
+.logoSection {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+form,
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form textarea {
+  resize: none;
+  width: 100%;
+  min-height: 60px;
+  padding: 14px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todoContainer,
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.todo {
+  padding: 14px;
+  border: #fceef2 1px solid;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.iconBtn {
+  color: #f1356d;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1/1;
+}
+
+.iconBtn:hover {
+  background-color: #fceef2;
+  color: #f1356d;
+}
